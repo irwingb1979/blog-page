@@ -2,6 +2,10 @@
 
 A dynamic and responsive blog application built with Node.js, Express, MongoDB, and EJS, designed to showcase articles and posts in a clean, modern interface. It features user authentication, blog post management, and image uploads.
 
+## 🖥️ Demo
+
+[Link to your live demo, if available. For example: `https://blog-page-9d22.onrender.com`]
+
 ## ✨ Features
 
 * **User Authentication:** Secure user registration, login, and session management using `bcrypt` for password hashing and Express sessions.
@@ -81,10 +85,6 @@ Follow these steps to get your project up and running on your local machine.
 3.  **Access the application:**
     Open your web browser and navigate to `http://localhost:4000`.
 
-## 🖥️ Demo
-
-[Link to your live demo, if available. For example: `https://your-app-name.herokuapp.com/`]
-
 ## 🖼️ Rendering / Deployment
 
 This application uses **EJS (Embedded JavaScript)** as its templating engine for server-side rendering. The Node.js Express server renders the dynamic HTML pages before sending them to the client's browser.
@@ -110,4 +110,4 @@ Contributions are welcome! If you find a bug or have a feature request, please o
 
 ## 📄 License
 
-[Optional: Add your license here, e.g., MIT License]
+This project is licensed under the [MIT License](LICENSE).
