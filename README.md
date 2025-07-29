@@ -4,7 +4,7 @@ A dynamic and responsive blog application built with Node.js, Express, MongoDB, 
 
 ## 🖥️ Demo
 
-[Link to your live demo, if available. For example: `https://blog-page-9d22.onrender.com`]
+You can explore the live demo at the following link: [Live Demo](https://blog-page-9d22.onrender.com).
 
 ## ✨ Features
 
