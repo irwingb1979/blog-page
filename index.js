@@ -49,7 +49,6 @@ const { error } = require('console');
 //     .then(() => console.log('MongoDB connected'))
 //     .catch(err => console.error('MongoDB connection error:', err));
 
-// mongoose.connect('mongodb+srv://irwingb:y8N0S7JrIvnkxPL@clusterblog.kdtvaur.mongodb.net/?retryWrites=true&w=majority&appName=ClusterBlog', {useNewUrlParser: true});
 mongoose.connect(process.env.DB_CONNECTION_STRING) // Use the environment variable here
     .then(() => console.log('MongoDB connected'))
     .catch(err => console.error('MongoDB connection error:', err));

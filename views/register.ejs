@@ -74,6 +74,10 @@
                                                         </div>
                                                     </div>
                                                     <!-- Submit Button-->
+                                                    <div class="g-recaptcha"
+                                                        data-sitekey="6LdVy5MrAAAAAN8dbahBFQMwp5dqLJCqyffRECPF">
+                                                    </div>
+                                                    <br>
                                                     <button class="btn btn-primary text-uppercase" id="submitButton"
                                                         type="submit">Register</button>
                                                 </form>
@@ -83,7 +87,9 @@
                 </div>
             </main>
             <%- include('layouts/footer'); -%>
-                <%- include('layouts/scripts'); -%>
+            <%- include('layouts/scripts'); -%>
+            <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+
     </body>
 
 </html>
